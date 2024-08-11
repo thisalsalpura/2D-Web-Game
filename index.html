@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mario World</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png"/>
+</head>
+
+<body onkeyup="keyCheck(event);" class="body">
+
+    <div class="background" id="background">
+
+
+
+        <img src="Run (1).png" class="boy" id="boy" />
+
+        <div class="score" id="score">SCORE = 0</div>
+
+        <div class="endScreen1" id="endScreen1">
+
+            <div>Game Over!</div>
+            <div>Your Score</div>
+            <div class="endScore" id="endScore">0</div>
+
+            <button class="btn1" onclick="reload();">Try Again</button>
+            
+            <button class="btn2"><a href="nextlevel.html">NextLevel</a></button>
+                
+            
+
+        </div>
+
+        <div>
+            <button class="btn3">
+                <a href="menu.html">Menu</a>
+            </button>
+        </div>
+
+        
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+.background {
+
+    position: absolute;
+    background-image: url("coverphoto.jpg");
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+    
+
+
+
+
+}
+
+.body {
+
+    margin: 0px;
+}
+
+.logo {
+
+    width: 300px;
+    margin-top: -10px;
+    margin-left: 425px;
+}
+
+.t1 {
+
+    position: absolute;
+    width: 500px;
+    height: 350px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    color: brown;
+
+    margin-top: -130px;
+    margin-left: 380px;
+
+
+}
+
+
+.btn1 {
+
+    width: 160px;
+    height: 40px;
+    margin-top: 220px;
+    margin-left: 550px;
+    background-color: brown;
+    
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+        
+    
+    border-radius: 20px;
+    border: none;
+}
+
+
